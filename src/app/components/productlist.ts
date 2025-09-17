@@ -262,7 +262,7 @@ export class ProductListComponent implements OnInit {
   }
 
   viewDetails(product: Product) {
-    this.router.navigate(['/product-details', product.id]);
+    this.router.navigate(['/product', product.id]);
   }
 
   getProductById(id: number): Product | undefined {

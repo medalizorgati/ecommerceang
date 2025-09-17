@@ -163,7 +163,7 @@ export class ProductCardComponent {
   constructor(private router: Router) {}
   
   navigateToDetails() {
-    this.router.navigate(['/product-details', this.product.id]);
+    this.router.navigate(['/product', this.product.id]);
   }
   
   addToWishlist(event: Event) {
